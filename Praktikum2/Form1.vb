@@ -1,9 +1,9 @@
 ﻿' This practice project is authored by: @elizielx - https://github.com/yehezkieldio
 ' Licensed under the MIT license, refer to the LICENSE file for more information.
 
+' This project is also available on GitHub: https://github.com/yehezkieldio/Praktikum2
 
 Public Class Form1
-
     ' StrikeOut label.
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         Label1.Font = New Font("Microsoft Sans Serif", Label1.Font.Size, Label1.Font.Style Xor FontStyle.Strikeout)
